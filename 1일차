@@ -1,0 +1,30 @@
+* ojdbc = 자바랑 디비랑 연결시켜주는 디펜던시 라이브러리
+* IDE(통합개발환경을 위한 툴) = STS4, eclipse
+
+* STS 
+workspace folder
+1. encoding -> "UTF-8"
+2. environment
+3. installed JRE
+4. hot key(자신만의 개인키)
+5. plugin -> market place
+6. font
+
+* 환경변수로 인해 JRE가 안잡혀도 돌수있다.
+
+* web은 자바라는 언어로 개발되고 spring 프레임워크를 쓰고 -> (build한다(maven으로 빌드)war로 만다)
+
+* maven의 dependency
+java,web,was와 디비의 연결을 maven에 dependency로 적용한다.
+
+-환경 변수
+* maven -> pom.xml
+* tomcat -> web.xml
+* web Application -> application.properties
+
+과제
+1. 끝나고 font는 naver d2로 맞춰라
+2. plug in로 Darkest Dark를 깔아라 
+3. 톰캣과 아파치톰캣의 차이가 무엇인가?
+4. application.properties에 boot와 not-boot에 설정 잡아서 비교해봐라
+
